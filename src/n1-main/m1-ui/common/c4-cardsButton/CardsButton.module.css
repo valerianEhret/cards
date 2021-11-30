@@ -1,0 +1,24 @@
+.buttonCards {
+    display: block;
+    margin: 10px;
+    background: rgb(33 38 143);
+    border-bottom: 4px solid rgb(33 38 143);
+    color: white;
+    font-size: 14px;
+    border-radius: 20px;
+    line-height: 23px;
+    width: 210px;
+    padding: 0 5px;
+}
+
+.button:disabled {
+    color: #005500;
+    cursor: auto;
+}
+.button:disabled::after {
+    z-index: -1;
+}
+
+.button:disabled::before {
+    z-index: -1;
+}

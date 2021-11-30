@@ -1,0 +1,28 @@
+$tablets: 768px;
+$phones :480px;
+$background: linear-gradient(180deg, #E6D4DE 0%, #9890C7 100%);
+$black_opacity: rgba(45, 46, 70, .5);
+$white:#fff;
+$black:#2D2E46;
+$dark_blue:#21268F;
+$light_blue:#D7D8EF;
+$purple:#9A91C8;
+$light_purple:#ECECF9;
+$red:rgb(255,148,148);
+
+
+@function rem($px){
+  @return $px /16px + 0rem;
+}
+
+@mixin tablets {
+  @media screen and (max-width:$tablets){
+    @content;
+  }
+}
+
+@mixin phones {
+  @media screen and (max-width:$phones){
+    @content;
+  }
+}

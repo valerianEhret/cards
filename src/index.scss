@@ -1,0 +1,192 @@
+@import "src/n3-styles/variables";
+@import "src/n3-styles/fonts";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+
+  @include tablets {
+    font-size: 15px;
+  }
+
+  @include phones {
+    font-size: 13px;
+  }
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  //font-size: rem(16px);
+  position: relative;
+  line-height: 1.42;
+  font-family: SF UI Display, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $background fixed;
+}
+
+h3 {
+  font-family: SF UI Display;
+  font-weight: 600;
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  & > li {
+    list-style: none;
+  }
+}
+
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form {
+  width: 100%;
+  max-width: rem(400px);
+  padding: rem(30px);
+  border-radius: rem(8px);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: rem(26px);
+    margin-bottom: rem(32px);
+    text-align: center;
+  }
+
+  h3 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: rem(22px);
+    text-align: center;
+  }
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cancel_button {
+  width: 70% !important;
+  background-color: $light_blue !important;
+  color: $dark_blue !important;
+}
+
+
+.button_wrapper{
+  display: flex;
+  width:100%;
+}
+
+
+a {
+  color: inherit;
+}
+
+
+.sqrBtn {
+  font-weight: 600;
+  padding: 5px;
+  color:$dark_blue;
+  background-color: $light_blue;
+  border: none;
+  &:disabled{
+    background-color: $black_opacity;
+  }
+}
+
+
+.square_button {
+  margin-right: rem(30px);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #21268F;
+  padding: 5px 6px;
+  background-color: #D7D8EF;
+  border: #D7D8EF;
+  border-radius: 2px;
+  &:disabled{
+    background-color: rgba(45, 46, 70, .5)
+  }
+}
+
+.square_delete__button {
+  margin-right:rem(30px);
+  font-size: 16px;
+  line-height: 14px;
+  color: #ffffff;
+  padding: 5px 6px;
+  background-color: #F1453D;
+  font-weight: 600;
+  border: red;
+  border-radius: 2px;
+}
+
+
+.non_active_button{
+  visibility:collapse;
+}
+
+
+
+
+@import "src/n1-main/m1-ui/components/HeaderMain/HeaderMain";
+@import "n1-main/m1-ui/components/Packs/Packs";
+
+
+
+
+
+

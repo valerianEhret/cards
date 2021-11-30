@@ -1,0 +1,18 @@
+.inputNya {
+    display: block;
+    background: #e9eff6;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    line-height: 35px;
+    border-width: 0;
+    padding: 0 20px;
+}
+
+.inputNya.error {
+    border:1px solid red;
+}
+
+.errorMessage {
+    color:red;
+}

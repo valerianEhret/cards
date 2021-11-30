@@ -1,0 +1,48 @@
+@import 'src/n3-styles/variables.scss';
+
+
+
+.root{
+  width:100%;
+  height:100%;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+
+.checkbox_wrapper {
+  width: 100%;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: rem(30px);
+}
+
+
+.forgotLink {
+  color: $black
+}
+
+.button {
+  margin-bottom: rem(30px);
+}
+
+.signUpTitle {
+  color: $black_opacity;
+  margin-bottom: rem(10px)
+}
+
+.signUpLink {
+  font-size: rem(16px);
+  color: $dark_blue
+}
+
+.forgotLinkWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: rem(30px);
+}
+

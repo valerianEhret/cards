@@ -1,0 +1,21 @@
+@import 'src/n3-styles/variables';
+
+.label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.checkbox {
+  appearance: none;
+  width: rem(16px);
+  height: rem(16px);
+  border-radius: 50%;
+  border: 1px solid $black;
+  margin-right: rem(12px);
+}
+
+.checkbox:checked {
+  border: 2px solid $dark_blue;
+}

@@ -1,0 +1,13 @@
+@import "src/n3-styles/variables";
+
+.root{
+  width:100%;
+}
+
+
+.img_wrapper{
+  width:rem(96px);
+  height: rem(96px);
+  border-radius: 50%;
+  overflow: hidden;
+}

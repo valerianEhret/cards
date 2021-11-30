@@ -1,0 +1,36 @@
+.pack {
+    display: flex;
+    padding: 5px 0;
+}
+
+.pack_button {
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #21268F;
+    padding: 5px 6px;
+    background-color: #D7D8EF;
+    border: #D7D8EF;
+    border-radius: 2px;
+}
+
+.pack_delete__button {
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 14px;
+    color: #ffffff;
+    padding: 5px 6px;
+    background-color: #F1453D;
+    font-weight: 600;
+    border: red;
+    border-radius: 2px;
+}
+
+.pack:nth-child(even) {
+    background-color: #F8F7FD;
+}
+.pack:nth-child(odd) {
+    background-color: #ffffff;
+}
+

@@ -1,0 +1,65 @@
+@import 'src/n3-styles/variables';
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page {
+  width:rem(24px);
+  height:rem(24px);
+  border-radius: 2px;
+  color:$black;
+  font-size: rem(12px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover{
+    background-color: $purple;
+    color:$white;
+  }
+}
+
+.page:not(:last-child){
+  margin-right: rem(12px);
+}
+
+.page__active {
+  color:$white;
+  background-color: $dark_blue;
+}
+
+
+.arrow {
+  width:rem(24px);
+  height:rem(24px);
+  border-width:0px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: inherit;
+  &:hover{
+    background-color: $purple;
+    color:$white;
+  }
+  &:disabled{
+    background-color: rgba(191, 191, 191, 1);
+  }
+}
+
+.arrow_img {
+  width:rem(10px);
+  height:rem(10px);
+}
+
+.arrow_right{
+  margin-left: rem(20px);
+
+}
+.arrow_left {
+  transform: rotate(180deg);
+  margin-right: rem(20px);
+}

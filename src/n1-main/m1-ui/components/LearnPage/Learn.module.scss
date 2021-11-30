@@ -1,0 +1,51 @@
+
+@import 'src/n3-styles/variables';
+
+
+.root{
+  width:100%;
+}
+.button_wrapper{
+  display: flex;
+}
+
+
+.learn_form{
+  align-items: flex-start;
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+}
+
+
+.description_wrapper {
+  margin-bottom: rem(30px);
+}
+
+.description{
+  display: flex;
+}
+
+.description:not(:last-child){
+  margin-bottom: rem(12px);
+}
+
+.description_title{
+  font-weight: bold;
+}
+
+
+.rate {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: rem(30px);
+  .title{
+    margin-bottom: rem(10px);
+  }
+
+  .radio_btn:not(:last-child){
+    margin-bottom: rem(12px);
+  }
+}

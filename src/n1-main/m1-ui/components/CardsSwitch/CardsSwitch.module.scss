@@ -1,0 +1,21 @@
+@import '../../../../n3-styles/variables';
+
+
+
+.title {
+  margin-bottom: rem(20px);
+  font-weight: 600;
+}
+
+.btn {
+  width: rem(95px);
+  height: rem(35px);
+  background-color: $white;
+  color: $black
+}
+
+
+.active {
+  background-color: $purple;
+  color:$white
+}

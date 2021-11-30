@@ -1,0 +1,26 @@
+@import 'src/n3-styles/variables';
+
+.root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: rem(17px) rem(10px);
+  background-color: $light_purple;
+  border-radius: 2px;
+}
+
+.btn {
+  margin-right:rem(10px);
+  border:none;
+  background-color: inherit;
+}
+
+.input {
+  border:none;
+  background-color: inherit;
+  width:inherit;
+  color:$black;
+  &:focus{
+    outline: none;
+  }
+}

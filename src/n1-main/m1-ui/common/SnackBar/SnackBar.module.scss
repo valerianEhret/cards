@@ -1,0 +1,47 @@
+@import 'src/n3-styles/variables';
+
+.root {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom:rem(50px);
+  width:100%;
+  max-width: rem(400px);
+  padding:rem(10px);
+  background-color: $red;
+  color:$white;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: rem(10px);
+  width: rem(32px);
+  height: rem(32px);
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  content: ' ';
+  height: rem(33px);
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+

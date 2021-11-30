@@ -1,0 +1,50 @@
+@import 'src/n3-styles/variables.scss';
+
+label {
+  width: 100%;
+}
+.label:not(:last-child) {
+  margin-bottom: rem(25px);
+}
+
+.title {
+  font-size: rem(13px);
+  font-weight: 400;
+  color: $black_opacity;
+}
+
+
+.input_wrapper {
+  position: relative;
+  border-bottom: 2px solid $black_opacity;
+  &:hover,
+  &:focus-within {
+    border-color: $dark_blue;
+  }
+}
+
+.input {
+  font-size: rem(16px);
+  font-weight: 500;
+  padding: rem(5px) 0px;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  color: $black;
+  outline: none;
+  &::placeholder {
+    color: $black_opacity;
+  }
+}
+
+.error {
+  border-color: $red;
+  color:$red
+}
+
+
+
+
+
+
+

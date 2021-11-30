@@ -1,0 +1,59 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color:  #EBE0E9;
+  margin-bottom: 25px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39px;
+    font-size: rem(26px);
+  }
+  &__nav {
+    display: flex;
+  }
+  &__link {
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: rem(14px);
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #2D2E46;
+    opacity: 0.4;
+    height: 60px;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__profile {
+      padding: 10px 35px;
+    }
+    &__title {
+      display: inline-block;
+    }
+    &_active {
+      background-color: #DCCCDB;
+      border-bottom: 3px solid #21268F;
+      opacity: 1;
+    }
+  }
+  &__icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    &__profile {
+      width: 16px;
+      height: 16px;
+      margin-right: 20px;
+    }
+  }
+}
